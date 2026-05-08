@@ -8,8 +8,8 @@
 %    Phase D: PDF 組み立て
 
 projDir  = 'C:\work\demos\CruiseControl';
-imgDir   = fullfile(projDir, 'report_imgs');
-outFile  = fullfile(projDir, 'MM_traceability_report.pdf');
+imgDir   = fullfile(projDir, 'reports', 'imgs');
+outFile  = fullfile(projDir, 'reports', 'MM_traceability_report.pdf');
 mmParent  = 'crs_controller/Mode_Manager';
 chartBlk  = [mmParent '/ModeManager_chart'];
 hName     = 'Mode_Manager_Harness';

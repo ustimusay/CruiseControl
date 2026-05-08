@@ -17,8 +17,8 @@
 %    Phase D: PDF 組み立て
 
 projDir = 'C:\work\demos\CruiseControl';
-imgDir  = fullfile(projDir, 'report_imgs');
-outFile = fullfile(projDir, 'IC_traceability_report.pdf');
+imgDir  = fullfile(projDir, 'reports', 'imgs');
+outFile = fullfile(projDir, 'reports', 'IC_traceability_report.pdf');
 if ~exist(imgDir, 'dir'), mkdir(imgDir); end
 
 %% ── 1. アーティファクト読み込み ──────────────────────────────────────────
